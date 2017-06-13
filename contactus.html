@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CONTACT US</title>
+    <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+    <script src="script/nav.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheet/index.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet/contact.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet/navstyle.css">
+
+  </head>
+  <body>
+      <nav>
+          <ul>
+              <li><a class="link" href="index.html" id="home">HOME</a></li>
+              <li class="link" id="drone_menu">DRONES</li>
+              <div class="content" id="dronedrop">
+                  <a class="link" href="drones_rec.html">RECOMMENDATIONS</a>
+                  <a class="link" href="drones_price.html">PRICES/FOOTAGE</a>
+              </div>
+              <li class="link" id="dslr_menu">DSLR CAMERAS</a></li>
+              <div class="content" id="dslrdrop">
+                  <a class="link" href="dslr_rec.html">RECOMMENDATIONS</a>
+                  <a class="link" href="dslr_work.html">WORK</a>
+              </div>
+              <li class="link" id="action_menu">ACTION CAMERAS</a></li>
+              <div class="content" id="actiondrop">
+                  <a class="link" href="ac_rec.html">RECOMMENDATIONS</a>
+              </div>
+              <li><a class="link" href="contactus.html">CONTACT US</a></li>
+          </ul>
+      </nav>
+      <main>
+          <h1>CONTACT US</h1>
+          <div id="feedback">
+          <h3>FEEDBACK</h3>
+          <input id="name" type="text" placeholder="Enter your name"/>
+          <input id="email" type="email" placeholder="Enter your email"/>
+          <input id="comment" type="text" placeholder="Enter your comment"/>
+          <button onclick="add()">SUBMIT</button>
+        </div>
+        <div id="location">
+          <h3>BASIC INFORMATION</h3>
+          <div id="map">
+              <script>
+                    function initMap() {
+                    var uluru = {lat: -25.363, lng: 131.044};
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                      zoom: 4,
+                      center: uluru
+                    });
+                    var marker = new google.maps.Marker({
+                      position: uluru,
+                      map: map
+                    });
+                  }
+            </script>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhHQjp3LZIMC1Jrj1uXkkkeYIOwkeWRik&callback=initMap"></script>
+          </div>
+          <p>PHONE: +886-3-520-3211
+              <br>
+          ADDRESS: West, South, East, North 123</p>
+      </div>
+    </main>
+  </body>
+  <footer>
+  </footer>
+</html>

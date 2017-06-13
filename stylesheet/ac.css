@@ -1,0 +1,79 @@
+h1{
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+h4{
+    padding-top: 10px;
+}
+h5{
+    font-family: helvetica;
+}
+div p{
+    font-size: 11px;
+    text-align: center;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+button{
+    font-size: 10px;
+    background-color: #0094CB;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #01A1DE;
+}
+#gopro1{
+    text-align: center;
+    background-color: #F2F2F2;
+    border-radius:10px;
+    height: 1330px;
+    width: 400px;
+    float: left;
+    margin-right: 2px;
+    margin-left: 100px;
+}
+div img{
+    width: 90%;
+    object-fit: contain;
+}
+#gopro2{
+    text-align: center;
+    background-color: #F2F2F2;
+    border-radius:10px;
+    height: 1330px;
+    width: 400px;
+    float: left;
+    margin-right: 2px;
+}
+#gopro3{
+    text-align: center;
+    background-color: #F2F2F2;
+    border-radius:10px;
+    height: 1330px;
+    width: 400px;
+    float: left;
+    margin-right: 2px;
+}
+
+.photodiv{
+    margin-top: 20px;
+    height: 250px;
+}
+.section{
+    margin-top: 40px;
+    height: 90px;
+}
+
+ul li{
+    text-align: center;
+    list-style: none;
+}

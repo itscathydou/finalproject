@@ -1,0 +1,99 @@
+h1{
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+h4{
+    padding-top: 5px;
+}
+h5{
+    font-family: helvetica;
+}
+div p{
+    font-size: 11px;
+    text-align: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+button{
+    font-size: 10px;
+    background-color: #0094CB;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #01A1DE;
+}
+#center{
+    margin-bottom: 100px;
+}
+#c1{
+    text-align: center;
+    background-color: #F2F2F2;
+    border-radius:10px;
+    height: 850px;
+    width: 350px;
+    float: left;
+    margin-right: 2px;
+    margin-left: 13px;
+}
+div img{
+    width: 90%;
+    object-fit: contain;
+}
+#c2{
+    text-align: center;
+    background-color: #F2F2F2;
+    border-radius:10px;
+    height: 850px;
+    width: 350px;
+    float: left;
+    margin-right: 2px;
+}
+#n1{
+    text-align: center;
+    background-color: #F2F2F2;
+    border-radius:10px;
+    height: 850px;
+    width: 350px;
+    float: left;
+    margin-right: 2px;
+}
+#n2{
+    text-align: center;
+    background-color: #F2F2F2;
+    border-radius:10px;
+    height: 850px;
+    width: 350px;
+    float: left;
+}
+.photodiv{
+    height: 230px;
+}
+.section{
+    height: 95px;
+}
+
+/*GRID PHOTOGRAPHY*/
+.zoom{
+
+}
+.tip{
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    border: 1px solid #F3F3F3;
+    border-radius: 10px;
+    float: left;
+    margin: 5px;
+}
+.outer{
+    margin-left: 100px;
+}
