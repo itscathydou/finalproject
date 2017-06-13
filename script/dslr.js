@@ -27,4 +27,17 @@ $(document).ready(function(){
     	$(this).css("background-color", "#F2F2F2");
 		$(this).css("border", "none");
 	});
+    /* WORK */
+    $(".tip").hover(function(){
+        $(this).removeClass("w3-grayscale");
+        $(this).removeClass("w3-opacity");
+
+        $(this).css("border", "none");
+        },function(){
+        $(this).addClass("w3-opacity");
+        $(this).addClass("w3-grayscale");
+        $(this).css("border", "3px solid #E5E5E5");
+
+    })
+
 });
