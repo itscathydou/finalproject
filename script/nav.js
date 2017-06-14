@@ -17,4 +17,7 @@ $(document).ready(function(){
     $('#downarrow').click(function(){
         $('body').animate({scrollTop:'+=800px'},800);
     });
+    $('#submit').click(function(){
+        alert("Your email has been sent.");
+    });
 });
