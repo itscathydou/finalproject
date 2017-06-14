@@ -1,0 +1,22 @@
+#bigslide{
+    width: 100%;
+}
+#myCarousel{
+    width: 100%;
+}
+.carousel-inner{
+    width: 100%;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+#drones{
+    width: 33.3%;
+}
+#drones #myCarouselimg{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
